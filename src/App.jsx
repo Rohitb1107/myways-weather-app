@@ -1,12 +1,16 @@
 import { useState } from "react";
 import "./App.css";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>Myways assignment</h1>
+      <Home />
     </div>
   );
 }
 
 export default App;
+
+// 1. - npm run json-server
+// 2. - npm run dev
